@@ -1,11 +1,7 @@
 :root {
 	--max-width: 1600px;
 	--gutter-width: 1rem;
-	--outer-margin: 1rem;
-}
-
-* {
-	box-sizing: border-box;
+	--outer-margin: .5rem;
 }
 
 .container {
@@ -20,12 +16,14 @@
 }
 
 .row {
+	box-sizing: border-box;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 }
 
 .col {
+	box-sizing: border-box;
 	display: flex;
 	flex: 1;
 	flex-direction: column;
